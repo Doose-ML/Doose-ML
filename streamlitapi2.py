@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 
 # Load model
-model = joblib.load("water project.pkl")
+model = joblib.load(open("water project.pkl", "rb"))
 
 st.title('Water Quality Prediction')
 
