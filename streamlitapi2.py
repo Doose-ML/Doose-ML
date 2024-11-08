@@ -9,15 +9,15 @@ st.title('Water Quality Prediction')
 
 
 # Get user input
-ph = st.number_input('pH')
-Hardness = st.number_input('Hardness')
-Solids = st.number_input('Solids')
-Chloramines = st.number_input('Chloramines')
-Sulfate = st.number_input('Sulfate')
-Conductivity = st.number_input('Conductivity')
-Organic_carbon = st.number_input('Organic Carbon')
-Trihalomethanes = st.number_input('Trihalomethanes')
-Turbidity = st.number_input('Turbidity')
+ph = st.text_input('pH')
+Hardness = st.text_input('Hardness')
+Solids = st.text_input('Solids')
+Chloramines = st.text_input('Chloramines')
+Sulfate = st.text_input('Sulfate')
+Conductivity = st.text_input('Conductivity')
+Organic_carbon = st.text_input('Organic Carbon')
+Trihalomethanes = st.text_input('Trihalomethanes')
+Turbidity = st.text_input('Turbidity')
 
 
 
